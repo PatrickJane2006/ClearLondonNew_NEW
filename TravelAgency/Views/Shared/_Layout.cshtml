@@ -1,0 +1,94 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+        <head>
+
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>>@ViewData["Title"] - ClearLondonNew</title>
+            <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+            <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+            <link rel="stylesheet" href="~/css/login_and_registration.css" asp-append-version="true" />
+            <link rel="stylesheet" href="~/css/shared.css" asp-append-version="true" />
+            <link rel="stylesheet" href="~/css/media-style.css" asp-append-version="true" />
+            <link rel="stylesheet" href="~/css/StyleColor.css" asp-append-version="true" />
+ 
+
+        </head>
+
+        <body>
+            <div id="home"></div>
+                    <div class="slow-background"></div>
+            <div id="side-menu" class="side-menu">
+                <div>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#countries">Страны</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                    </ul>
+                </div>
+
+                <button class="button" id="side-menu-button-click-to-hide" type="button" name="button">Войти</button>
+            </div>
+
+
+            <div id="header-top">
+                <div id="hamburger" class="icon">&#9776;</div>
+                <div class="logo">ClearLondonNew</div>
+                <div class="button-header">
+                    <button class="button" id="click-to-hide">Войти</button>
+                </div>
+            </div>
+
+            <img class="img-header" src="/Images/2.jpg" />
+            <div id="header-bottom">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#countries">Страны</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+                @await Html.PartialAsync("_LoginRegistrationPartial")
+
+            <div class="container">
+                     @RenderBody()
+            </div>
+
+        <footer>
+            <div class="footer-left">
+                <div class="logo">ClearLondonNew</div>
+
+                <p>
+                    Мы - клининговая компания ClearLondonNew! Наша задача очистить ваше имущество от грязи!
+                </p>
+
+                <div class="footer-ClearLondonNew">
+                    &copy; 2024 — ClearLondonNew - Gradinar
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#countries">Страны</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+            <script src="~/js/shared_script.js" asp-append-version="true"></script>
+            <script src="~/js/home_script.js" asp-append-version="true"></script>
+            <script src="~/js/login_and_registration_script.js" asp-append-version="true"></script>
+            <script src="~/js/chared_script.js" asp-append-version="true"></script>
+
+        </body>
+
+</html>

@@ -1,0 +1,280 @@
+﻿html{
+    box-sizing: border-box;
+    font-family:"Montserrat", sans-serif;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    height: 10000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    animation: backgroundAnimation 60s ease-in-out infinite; /* Запуск анимации */
+}
+.logo {
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #0c0e10;
+}
+
+.img-header {
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px; /* Закругляем углы */
+    border: 2px solid #000; /* Добавляем рамку (по желанию) */
+}
+#header-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+    background-color: rgba(255, 165, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    transition: background-color 0.5s;
+}
+#header-bottom{
+    position: sticky;
+    top: 0;
+    padding: 25px 0;
+    width: 50%;
+    z-index: 1000;
+}
+.button-header{
+    display: flex;
+    align-items: center;
+}
+    .button-header .button {
+        border: 2px solid #370b0b;
+        background-color: transparent;
+        padding: 7px 14px;
+        margin: 0 10px;
+        border-radius: 3px;
+        color: #370b0b;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+        transition: all 250ms ease;
+    }
+        .button-header .button:hover {
+            color: #fff;
+            background-color: #000000;
+        }
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+    .menu li {
+        list-style-type: none;
+        display: inline-flex;
+        padding: 20px;
+        border-radius: 10px; /* Закругляем углы */
+        border: 2px solid #000; /* Добавляем рамку (по желанию) */
+    }
+
+        .menu li:hover {
+            color: #fff;
+            background-color: #137ff1;
+            cursor: pointer;
+        }
+
+    .menu a {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 150%;
+        color: #0c0c10;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+        .menu a:hover {
+            color: #000;
+        }
+.container {
+    width: 88%;
+    border: 0.8px solid #000000;
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px; /* Закругляем углы */
+}
+.container-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 40px;
+    
+}
+.info-sections {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #000000;
+
+}
+.text{
+    text-indent: 40px;
+    margin: 5px;
+    text-align: justify;
+    font-size: 20px;
+    color:#370b0b
+}
+
+.block-message{
+    color: #000000;
+}
+
+.message-text{
+    color: #370b0b;
+}
+
+footer {
+    background-color: #0000FF;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.footer-left, .footer-right {
+    flex: 1;
+}
+
+    .footer-left .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+.footer-ClearLondonNew {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.footer-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+    .footer-menu li {
+        list-style-type: none;
+        display: inline-flex;
+        padding: 20px;
+        border-radius: 7px; /* Закругляем углы */
+        border: 2px solid #000; /* Добавляем рамку (по желанию) */
+    }
+
+    .footer-menu li:hover {
+        color: #fff;
+        background-color: #137ff1;
+        cursor: pointer;
+    }
+
+
+
+.footer-menu a {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #0c0c10;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+    .footre-menu a:hover {
+        color: #000;
+    }
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    display: none;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(30, 144, 255);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.3s ease;
+    z-index: 200;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: grid;
+    justify-content: space-around;
+}
+
+.side-menu ul li {
+    margin: 10px 0;
+}
+
+        .button-header .button,
+        .side-menu .button {
+            border: 2px solid #370b0b;
+            background-color: transparent;
+            padding: 7px 14px;
+            margin: 0 10px;
+            border-radius: 3px;
+            color: #370b0b;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 250ms ease;
+        }
+
+            .button-header .button:hover,
+            .side-menu .button:hover {
+                color: #fff;
+                background-color: #370b0b;
+            }
+
+    .menu a, .side-menu a {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 150%;
+        color: #0c0c10;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+
+
+
+

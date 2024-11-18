@@ -1,0 +1,50 @@
+﻿/* Анимация изменения фона */
+@keyframes backgroundAnimation {
+    0% {
+        background-color: #007fff; /* Начальный цвет (голубой) */
+    }
+
+    10% {
+        background-color: #38dcbe; /* Патрик Джейн */
+    }
+
+    20% {
+        background-color: #ff0046; /* Малиновый */
+    }
+
+    30% {
+        background-color: #9e08e4; /* Фиолетовый */
+    }
+
+    40% {
+        background-color: #0fff00; /* Зеленый */
+    }
+
+    50% {
+        background-color: #f3ff00; /* Жёлтый */
+    }
+
+    60% {
+        background-color: #cc7722; /* Охра */
+    }
+
+    70% {
+        background-color: #ff0000; /* Красный */
+    }
+
+    80% {
+        background-color: #8bcb11; /* Янтарный */
+    }
+
+    90% {
+        background-color: #37ac39; /* Блевотный */
+    }
+
+    100% {
+        background-color: #735184; /* Серобуромалиновый */
+    }
+
+}
+
+
+
