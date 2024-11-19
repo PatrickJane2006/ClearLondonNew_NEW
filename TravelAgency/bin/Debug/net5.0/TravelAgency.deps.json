@@ -487,8 +487,7 @@
       "TravelAgency.DAL/1.0.0": {
         "dependencies": {
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.0",
-          "TravelAgency.Domain": "1.0.0",
-          "TravelAgency.Service": "1.0.0"
+          "TravelAgency.Domain": "1.0.0"
         },
         "runtime": {
           "TravelAgency.DAL.dll": {}
@@ -503,14 +502,6 @@
         },
         "compile": {
           "TravelAgency.Domain.dll": {}
-        }
-      },
-      "TravelAgency.Service/1.0.0": {
-        "runtime": {
-          "TravelAgency.Service.dll": {}
-        },
-        "compile": {
-          "TravelAgency.Service.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2379,11 +2370,6 @@
       "sha512": ""
     },
     "TravelAgency.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TravelAgency.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

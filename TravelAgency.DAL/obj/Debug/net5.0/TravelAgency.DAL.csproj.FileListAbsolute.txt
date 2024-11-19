@@ -50,9 +50,7 @@ D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\bin\Debug\net5.0\TravelAgency.D
 D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\bin\Debug\net5.0\ref\TravelAgency.DAL.dll
 D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\bin\Debug\net5.0\TravelAgency.DAL.pdb
 D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\bin\Debug\net5.0\TravelAgency.Domain.dll
-D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\bin\Debug\net5.0\TravelAgency.Service.dll
 D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\bin\Debug\net5.0\TravelAgency.Domain.pdb
-D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\bin\Debug\net5.0\TravelAgency.Service.pdb
 D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\obj\Debug\net5.0\TravelAgency.DAL.csproj.AssemblyReference.cache
 D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\obj\Debug\net5.0\TravelAgency.DAL.GeneratedMSBuildEditorConfig.editorconfig
 D:\Gradinar\ClearLondonNew-main\TravelAgency.DAL\obj\Debug\net5.0\TravelAgency.DAL.AssemblyInfoInputs.cache

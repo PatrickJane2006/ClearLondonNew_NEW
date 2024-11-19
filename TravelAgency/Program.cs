@@ -24,7 +24,10 @@ namespace TravelAgency
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    
                 });
 
+
+           
     }
 }

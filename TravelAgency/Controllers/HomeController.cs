@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 using TravelAgency.Domain.ViewModels.LoginAndRegistration;
 using Microsoft.Extensions.Logging;
 using System.Diagnostics;
+using AutoMapper;
+using TravelAgency.Service.Implementation;
+using TravelAgency.Domain.Models;
 
 namespace TravelAgency.Controllers
 { 
@@ -23,33 +26,6 @@ namespace TravelAgency.Controllers
                 return View();
             }
 
-            [HttpPost]
-            public IActionResult Login([FromBody] LoginViewModel model)
-            {
-                if (ModelState.IsValid)
-                {
-                    return Ok(model);
-                }
-                var errors = ModelState.Values.SelectMany(v => v.Errors)
-                    .Select(e => e.ErrorMessage)
-                    .ToList();
-                return BadRequest(errors);
-            }
-
-            [HttpPost]
-            public IActionResult Register([FromBody] RegisterViewModel model)
-            {
-                if (!ModelState.IsValid)
-                {
-                    var errors = ModelState.Values.SelectMany(v => v.Errors)
-                        .Select(e => e.ErrorMessage)
-                        .ToList();
-                }
-
-                return Ok(model);
-            }
-
-
             public IActionResult Privacy()
             {
                 return View();
@@ -60,5 +36,70 @@ namespace TravelAgency.Controllers
             {
                 return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
             }
+
+
+        private readonly IAccountService _accountService;
+
+            private IMapper _mapper { get; set; }
+
+        MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
+        {
+            p.AddProfile<AppMappingProfile>();
+        });
+        public HomeController(ILogger<HomeController> logger, IAccountService accountService)
+        {
+            _accountService = accountService;
+            _logger = logger;
+            _mapper = mapperConfiguration.CreateMapper();
         }
+            
+            [HttpPost]
+            public async Task<IActionResult> Login([FromBody] LoginViewModel model)
+            {
+                if (ModelState.IsValid)
+                {
+                    var user = _mapper.Map<User>(model);
+
+                    var responce = await _accountService.Login(user);
+
+                    if (responce.StatusCode == Domain.Response.StatusCode.OK)
+                    {
+                        return Ok(model);
+                    }
+                        ModelState.AddModelError("", responce.Description);
+                        
+                }
+
+                var errors = ModelState.Values.SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+                return BadRequest(errors);
+            }
+
+        [HttpPost]
+        public async Task<IActionResult> Register([FromBody] LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = _mapper.Map<User>(model);
+
+                var responce = await _accountService.Register(user);
+
+                if (responce.StatusCode == Domain.Response.StatusCode.OK)
+                {
+                    return Ok(model);
+                }
+                ModelState.AddModelError("", responce.Description);
+
+            }
+
+            var errors = ModelState.Values.SelectMany(v => v.Errors)
+            .Select(e => e.ErrorMessage)
+            .ToList();
+
+            return BadRequest(errors);
+        }
+
+    }
 }

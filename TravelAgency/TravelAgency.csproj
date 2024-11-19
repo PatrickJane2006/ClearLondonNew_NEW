@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -13,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TravelAgency.DAL\TravelAgency.DAL.csproj" />
+    <ProjectReference Include="..\TravelAgency.Service\TravelAgency.Service.csproj" />
   </ItemGroup>
 
 </Project>

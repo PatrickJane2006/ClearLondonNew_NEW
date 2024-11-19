@@ -10,8 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Tools": "5.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.0",
-          "TravelAgency.Domain": "1.0.0",
-          "TravelAgency.Service": "1.0.0"
+          "TravelAgency.Domain": "1.0.0"
         },
         "runtime": {
           "TravelAgency.DAL.dll": {}
@@ -214,11 +213,6 @@
         "runtime": {
           "TravelAgency.Domain.dll": {}
         }
-      },
-      "TravelAgency.Service/1.0.0": {
-        "runtime": {
-          "TravelAgency.Service.dll": {}
-        }
       }
     }
   },
@@ -390,11 +384,6 @@
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
     },
     "TravelAgency.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "TravelAgency.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

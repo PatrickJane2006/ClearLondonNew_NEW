@@ -278,16 +278,6 @@
         "runtime": {
           "bin/placeholder/TravelAgency.Domain.dll": {}
         }
-      },
-      "TravelAgency.Service/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/TravelAgency.Service.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TravelAgency.Service.dll": {}
-        }
       }
     }
   },
@@ -868,19 +858,13 @@
       "type": "project",
       "path": "../TravelAgency.Domain/TravelAgency.Domain.csproj",
       "msbuildProject": "../TravelAgency.Domain/TravelAgency.Domain.csproj"
-    },
-    "TravelAgency.Service/1.0.0": {
-      "type": "project",
-      "path": "../TravelAgency.Service/TravelAgency.Service.csproj",
-      "msbuildProject": "../TravelAgency.Service/TravelAgency.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.0",
-      "TravelAgency.Domain >= 1.0.0",
-      "TravelAgency.Service >= 1.0.0"
+      "TravelAgency.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -917,9 +901,6 @@
           "projectReferences": {
             "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
               "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
-            },
-            "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Service\\TravelAgency.Service.csproj": {
-              "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Service\\TravelAgency.Service.csproj"
             }
           }
         }
