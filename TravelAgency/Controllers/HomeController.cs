@@ -9,6 +9,9 @@ using System.Diagnostics;
 using AutoMapper;
 using TravelAgency.Service.Implementation;
 using TravelAgency.Domain.Models;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
 
 namespace TravelAgency.Controllers
 { 
@@ -33,20 +36,22 @@ namespace TravelAgency.Controllers
             }
 
 
-        private readonly IAccountService _accountService;
+                private readonly IAccountService _accountService;
 
-            private IMapper _mapper { get; set; }
+                private IMapper _mapper { get; set; }
 
-        MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
-        {
-            p.AddProfile<AppMappingProfile>();
-        });
-        public HomeController(ILogger<HomeController> logger, IAccountService accountService)
-        {
-            _accountService = accountService;
-            _logger = logger;
-            _mapper = mapperConfiguration.CreateMapper();
-        }
+
+                MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
+                {
+                        p.AddProfile<AppMappingProfile>();
+                });
+
+                public HomeController(ILogger<HomeController> logger, IAccountService accountService)
+                {
+                        _accountService = accountService;
+                        _logger = logger;
+                        _mapper = mapperConfiguration.CreateMapper();
+                }
             
             [HttpPost]
             public async Task<IActionResult> Login([FromBody] LoginViewModel model)
@@ -59,6 +64,10 @@ namespace TravelAgency.Controllers
 
                     if (responce.StatusCode == Domain.Response.StatusCode.OK)
                     {
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                            new ClaimsPrincipal(responce.Data));
+
+
                         return Ok(model);
                     }
                         ModelState.AddModelError("", responce.Description);
@@ -72,29 +81,40 @@ namespace TravelAgency.Controllers
                 return BadRequest(errors);
             }
 
-        [HttpPost]
-        public async Task<IActionResult> Register([FromBody] LoginViewModel model)
-        {
-            if (ModelState.IsValid)
+            [HttpPost]
+            public async Task<IActionResult> Register([FromBody] LoginViewModel model)
             {
-                var user = _mapper.Map<User>(model);
-
-                var responce = await _accountService.Register(user);
-
-                if (responce.StatusCode == Domain.Response.StatusCode.OK)
+                if (ModelState.IsValid)
                 {
-                    return Ok(model);
-                }
-                ModelState.AddModelError("", responce.Description);
+                    var user = _mapper.Map<User>(model);
 
+                    var responce = await _accountService.Register(user);
+
+                    if (responce.StatusCode == Domain.Response.StatusCode.OK)
+                    {
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                            new ClaimsPrincipal(responce.Data));
+
+                        return Ok(model);
+                    }
+                    ModelState.AddModelError("", responce.Description);
+
+                }
+                    var errors = ModelState.Values.SelectMany(v => v.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
+
+                    return BadRequest(errors);
             }
 
-            var errors = ModelState.Values.SelectMany(v => v.Errors)
-            .Select(e => e.ErrorMessage)
-            .ToList();
+            [AutoValidateAntiforgeryToken]
 
-            return BadRequest(errors);
+            public  async  Task<IAsyncResult> Logout()
+            {
+                await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            return (IAsyncResult)RedirectToAction("SiteInformation", "Home");
+            }
+        
         }
-
-    }
 }

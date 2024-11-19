@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
 using TravelAgency.Domain.Response;
 using TravelAgency.Domain.Models;
-using System;
+using System.Security.Claims;
 
 namespace TravelAgency.Service.Implementation
 {
     public interface IAccountService
     {
-        Task<BaseResponce<User>> Register(User model);
-        Task<BaseResponce<User>> Login(User model);
+        Task<BaseResponce<ClaimsIdentity>> Register(User model);
+        Task<BaseResponce<ClaimsIdentity>> Login(User model);
 
     }
 
