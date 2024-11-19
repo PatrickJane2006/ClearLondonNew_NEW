@@ -31,7 +31,6 @@ namespace TravelAgency
             services.AddControllersWithViews();
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-
             services.InitializeReposiitories();
             services.InitializeServices();
 

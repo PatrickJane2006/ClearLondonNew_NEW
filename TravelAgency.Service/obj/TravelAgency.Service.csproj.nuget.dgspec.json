@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Service\\TravelAgency.Service.csproj": {}
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Service\\TravelAgency.Service.csproj": {}
   },
   "projects": {
-    "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
         "projectName": "TravelAgency.DAL",
-        "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
         "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-        "outputPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.DAL\\obj\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
-                "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
         "projectName": "TravelAgency.Domain",
-        "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
         "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-        "outputPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\obj\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -136,14 +136,14 @@
         }
       }
     },
-    "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Service\\TravelAgency.Service.csproj": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Service\\TravelAgency.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Service\\TravelAgency.Service.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Service\\TravelAgency.Service.csproj",
         "projectName": "TravelAgency.Service",
-        "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Service\\TravelAgency.Service.csproj",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Service\\TravelAgency.Service.csproj",
         "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
-        "outputPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Service\\obj\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,11 +164,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
-                "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.DAL\\TravelAgency.DAL.csproj"
               },
-              "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
-                "projectPath": "D:\\Gradinar\\ClearLondonNew-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
               }
             }
           }
@@ -185,7 +185,7 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[12.0.0, )"
             }
           },
           "imports": [
