@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Security.Claims;
 
+
 namespace TravelAgency.Controllers
 { 
         public class HomeController : Controller
@@ -109,11 +110,11 @@ namespace TravelAgency.Controllers
 
             [AutoValidateAntiforgeryToken]
 
-            public  async  Task<IAsyncResult> Logout()
+            public  async  Task<IActionResult> Logout()
             {
                 await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
-            return (IAsyncResult)RedirectToAction("SiteInformation", "Home");
+            return RedirectToAction("SiteInformation", "Home");
             }
         
         }

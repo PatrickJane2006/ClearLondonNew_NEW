@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\ClearLondonNew.DAL.csproj": {}
+  },
+  "projects": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\ClearLondonNew.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\ClearLondonNew.DAL.csproj",
+        "projectName": "ClearLondonNew.DAL",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\ClearLondonNew.DAL.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ClearLondonNew.Domain.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ClearLondonNew.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ClearLondonNew.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ClearLondonNew.Domain.csproj",
+        "projectName": "ClearLondonNew.Domain",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ClearLondonNew.Domain.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

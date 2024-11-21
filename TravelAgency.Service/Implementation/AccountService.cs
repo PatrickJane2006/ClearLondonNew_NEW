@@ -8,6 +8,9 @@ using TravelAgency.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using TravelAgency.Domain.Helpers;
+using FluentValidation;
+using TravelAgency.Domain.Validators;
+using System.Linq;
 
 namespace TravelAgency.Service.Implementation
 {
@@ -15,6 +18,8 @@ namespace TravelAgency.Service.Implementation
     {
         private readonly IBaseStorage<UsersDb> _UserStorage;
         private IMapper _mapper { get; set; }
+
+        private UserValidator _validationRules { get; set; }
 
         MapperConfiguration mapperConfiguration = new MapperConfiguration(p =>
         {
@@ -25,12 +30,15 @@ namespace TravelAgency.Service.Implementation
         {
             _UserStorage = userStorage;
             _mapper = mapperConfiguration.CreateMapper();
+            _validationRules = new UserValidator();
         }
 
         public async Task<BaseResponce<ClaimsIdentity>> Login(User model)
         {
             try
             {
+                await _validationRules.ValidateAndThrowAsync(model);
+
                 var userdb = await _UserStorage.GetAll().FirstOrDefaultAsync(x => x.Email == model.Email);
 
                 if (userdb == null)
@@ -62,12 +70,15 @@ namespace TravelAgency.Service.Implementation
                     StatusCode = StatusCode.OK
                 };
             }
-            catch (Exception ex)
+            catch (ValidationException ex)
             {
+                //Получение сообщений об ошибках
+                var errorsMessages = string.Join(";", ex.Errors.Select(e => e.ErrorMessage));
+
                 return new BaseResponce<ClaimsIdentity>()
                 {
-                    Description = ex.Message,
-                    StatusCode = StatusCode.InternalServerError
+                    Description = errorsMessages,
+                    StatusCode = StatusCode.BadRequest
                 };
             }
         }
@@ -79,6 +90,8 @@ namespace TravelAgency.Service.Implementation
                 model.Path_Img = "";
                 model.CreatedAt = DateTime.Now;
                 model.Password = HashPasswordHelper.HashPassword(model.Password);
+
+                await _validationRules.ValidateAndThrowAsync(model);
 
                 var userdb = _mapper.Map<UsersDb>(model);
 
@@ -106,12 +119,15 @@ namespace TravelAgency.Service.Implementation
                     StatusCode = StatusCode.OK
                 };
             }
-            catch (Exception ex)
+            catch (ValidationException ex)
             {
+                //Получение сообщений об ошибках валидации
+                var errorsMessages = string.Join(";", ex.Errors.Select(e => e.ErrorMessage));
+
                 return new BaseResponce<ClaimsIdentity>()
                 {
-                    Description = ex.Message,
-                    StatusCode = StatusCode.InternalServerError
+                    Description = errorsMessages,
+                    StatusCode = StatusCode.BadRequest
                 };
             }
         }

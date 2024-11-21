@@ -1,0 +1,17 @@
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ClearLondonNew.Service.deps.json
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ClearLondonNew.Service.dll
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ref\ClearLondonNew.Service.dll
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ClearLondonNew.Service.pdb
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ClearLondonNew.DAL.dll
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ClearLondonNew.Domain.dll
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ClearLondonNew.DAL.pdb
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\bin\Debug\net5.0\ClearLondonNew.Domain.pdb
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.csproj.AssemblyReference.cache
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.AssemblyInfoInputs.cache
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.AssemblyInfo.cs
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.csproj.CoreCompileInputs.cache
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.csproj.CopyComplete
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.dll
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ref\ClearLondonNew.Service.dll
+D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Service\obj\Debug\net5.0\ClearLondonNew.Service.pdb

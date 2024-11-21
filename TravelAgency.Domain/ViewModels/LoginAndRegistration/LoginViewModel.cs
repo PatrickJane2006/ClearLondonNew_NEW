@@ -12,7 +12,7 @@ namespace TravelAgency.Domain.ViewModels.LoginAndRegistration
     {
         [Required(ErrorMessage = "Введите почту")]
         [EmailAddress(ErrorMessage = "Некорретный адрес электронной почты")]
-        
+
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Введите пароль")]

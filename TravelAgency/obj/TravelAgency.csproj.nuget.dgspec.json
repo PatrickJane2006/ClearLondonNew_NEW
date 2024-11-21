@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj": {}
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj": {}
   },
   "projects": {
-    "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
         "projectName": "TravelAgency.DAL",
-        "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\obj\\",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
-                "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
               }
             }
           }
@@ -38,11 +42,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -66,8 +65,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,21 +74,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
         "projectName": "TravelAgency.Domain",
-        "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\obj\\",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,24 +112,24 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -136,21 +138,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj",
         "projectName": "TravelAgency.Service",
-        "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\obj\\",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,11 +170,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
-                "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj"
               },
-              "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
-                "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
               }
             }
           }
@@ -177,11 +183,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -199,8 +200,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -209,21 +209,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj": {
+    "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj",
         "projectName": "TravelAgency",
-        "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\obj\\",
+        "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency\\TravelAgency.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -237,11 +241,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
-                "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\TravelAgency.DAL.csproj"
               },
-              "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj": {
-                "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj"
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj"
+              },
+              "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj": {
+                "projectPath": "D:\\Gradinar\\ClearLondon\\ClearLondonNew_NEW-main\\TravelAgency.Service\\TravelAgency.Service.csproj"
               }
             }
           }
@@ -250,11 +257,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -278,8 +280,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -291,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
