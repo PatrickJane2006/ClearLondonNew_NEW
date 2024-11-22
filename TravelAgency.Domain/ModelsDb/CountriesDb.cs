@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TravelAgency.Domain.ModelsDb
@@ -26,6 +27,8 @@ namespace TravelAgency.Domain.ModelsDb
         [Column("createdAt", TypeName = "timestamp")]
 
         public DateTime CreatedAt { get; set; }
+
+        public ServicesDb Services { get; set; }
 
 
     }

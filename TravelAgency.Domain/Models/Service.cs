@@ -11,7 +11,7 @@ namespace TravelAgency.Domain.Models
 
         public string City { get; set; }
 
-        public string Name_Company { get; set; }
+        public string Name_Service { get; set; }
 
         public decimal Cleaning_Apartment_Price { get; set; }
 

@@ -42,7 +42,12 @@ namespace TravelAgency.DAL.Migrations
                         .HasColumnType("text")
                         .HasColumnName("path_img");
 
+                    b.Property<Guid?>("ServicesId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ServicesId");
 
                     b.ToTable("countries");
                 });
@@ -74,7 +79,22 @@ namespace TravelAgency.DAL.Migrations
                         .HasColumnType("numeric")
                         .HasColumnName("price");
 
+                    b.Property<Guid?>("ServicesDbId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("UsersDbId")
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("ordersDbsId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("ServicesDbId");
+
+                    b.HasIndex("UsersDbId");
+
+                    b.HasIndex("ordersDbsId");
 
                     b.ToTable("orders");
                 });
@@ -94,7 +114,12 @@ namespace TravelAgency.DAL.Migrations
                         .HasColumnType("text")
                         .HasColumnName("path_img");
 
+                    b.Property<Guid?>("Picture_servicesDbId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("Picture_servicesDbId");
 
                     b.ToTable("picture_services");
                 });
@@ -126,7 +151,12 @@ namespace TravelAgency.DAL.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("status");
 
+                    b.Property<Guid?>("UsersDbId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UsersDbId");
 
                     b.ToTable("requests");
                 });
@@ -174,15 +204,20 @@ namespace TravelAgency.DAL.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id_country");
 
-                    b.Property<string>("Name_Company")
+                    b.Property<string>("Name_Service")
                         .HasColumnType("text")
-                        .HasColumnName("name_company");
+                        .HasColumnName("name_service");
 
                     b.Property<string>("Path_Img")
                         .HasColumnType("text")
                         .HasColumnName("path_img");
 
+                    b.Property<Guid?>("pictureServicesId")
+                        .HasColumnType("uuid");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("pictureServicesId");
 
                     b.ToTable("services");
                 });
@@ -221,6 +256,78 @@ namespace TravelAgency.DAL.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("users");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.CountriesDb", b =>
+                {
+                    b.HasOne("TravelAgency.Domain.ModelsDb.ServicesDb", "Services")
+                        .WithMany("countriesDb")
+                        .HasForeignKey("ServicesId");
+
+                    b.Navigation("Services");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.OrdersDb", b =>
+                {
+                    b.HasOne("TravelAgency.Domain.ModelsDb.ServicesDb", null)
+                        .WithMany("ordersDb")
+                        .HasForeignKey("ServicesDbId");
+
+                    b.HasOne("TravelAgency.Domain.ModelsDb.UsersDb", "UsersDb")
+                        .WithMany("ordersDb")
+                        .HasForeignKey("UsersDbId");
+
+                    b.HasOne("TravelAgency.Domain.ModelsDb.OrdersDb", "ordersDbs")
+                        .WithMany()
+                        .HasForeignKey("ordersDbsId");
+
+                    b.Navigation("ordersDbs");
+
+                    b.Navigation("UsersDb");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.Picture_servicesDb", b =>
+                {
+                    b.HasOne("TravelAgency.Domain.ModelsDb.Picture_servicesDb", null)
+                        .WithMany("Picture_services")
+                        .HasForeignKey("Picture_servicesDbId");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.RequestsDb", b =>
+                {
+                    b.HasOne("TravelAgency.Domain.ModelsDb.UsersDb", "UsersDb")
+                        .WithMany("requestsDb")
+                        .HasForeignKey("UsersDbId");
+
+                    b.Navigation("UsersDb");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.ServicesDb", b =>
+                {
+                    b.HasOne("TravelAgency.Domain.ModelsDb.Picture_servicesDb", "pictureServices")
+                        .WithMany()
+                        .HasForeignKey("pictureServicesId");
+
+                    b.Navigation("pictureServices");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.Picture_servicesDb", b =>
+                {
+                    b.Navigation("Picture_services");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.ServicesDb", b =>
+                {
+                    b.Navigation("countriesDb");
+
+                    b.Navigation("ordersDb");
+                });
+
+            modelBuilder.Entity("TravelAgency.Domain.ModelsDb.UsersDb", b =>
+                {
+                    b.Navigation("ordersDb");
+
+                    b.Navigation("requestsDb");
                 });
 #pragma warning restore 612, 618
         }

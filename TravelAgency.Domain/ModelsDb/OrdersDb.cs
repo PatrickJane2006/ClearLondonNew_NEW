@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
+using TravelAgency.Domain.Models;
 
 
 namespace TravelAgency.Domain.ModelsDb
@@ -31,6 +32,12 @@ namespace TravelAgency.Domain.ModelsDb
         [Column("id_service")]
 
         public Guid Id_Service { get; set; }
+
+        public UsersDb UsersDb { get; set; }
+
+        public OrdersDb ordersDbs { get; set; }
+
+      
 
     }
 }

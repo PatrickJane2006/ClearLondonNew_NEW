@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
@@ -20,6 +22,8 @@ namespace TravelAgency.Domain.ModelsDb
 
         public string Path_Img { get; set; }
 
+        
+        public ICollection<Picture_servicesDb> Picture_services { get; set; }
 
     }
 }

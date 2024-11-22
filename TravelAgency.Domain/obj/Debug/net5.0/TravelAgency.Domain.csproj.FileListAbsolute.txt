@@ -129,3 +129,15 @@ D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\ne
 D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.dll
 D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\ref\TravelAgency.Domain.dll
 D:\Gradinar\ClearLondon\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.pdb
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\bin\Debug\net5.0\TravelAgency.Domain.deps.json
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\bin\Debug\net5.0\TravelAgency.Domain.dll
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\bin\Debug\net5.0\TravelAgency.Domain.pdb
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.csproj.AssemblyReference.cache
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.AssemblyInfoInputs.cache
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.AssemblyInfo.cs
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.csproj.CoreCompileInputs.cache
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.dll
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\refint\TravelAgency.Domain.dll
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\TravelAgency.Domain.pdb
+D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency.Domain\obj\Debug\net5.0\ref\TravelAgency.Domain.dll

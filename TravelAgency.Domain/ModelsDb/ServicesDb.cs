@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using TravelAgency.Domain.ModelsDb;
 
 
 
@@ -21,9 +23,9 @@ namespace TravelAgency.Domain.ModelsDb
 
         public string City { get; set; }
 
-        [Column("name_company")]
+        [Column("name_service")]
 
-        public string Name_Company { get; set; }
+        public string Name_Service { get; set; }
 
         [Column("cleaning_apartment_price")]
 
@@ -55,6 +57,12 @@ namespace TravelAgency.Domain.ModelsDb
         [Column("createdAt", TypeName = "timestamp")]
         public DateTime CreatedAt { get; set; }
 
+
+        public ICollection<CountriesDb> countriesDb { get; set; }
+
+        public ICollection<OrdersDb> ordersDb { get; set; }
+
+        public Picture_servicesDb pictureServices { get; set; }
 
     }
 }

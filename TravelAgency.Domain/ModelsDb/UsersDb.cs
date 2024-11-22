@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using TravelAgency.Domain.Enum;
+using TravelAgency.Domain.Models;
 
 
 namespace TravelAgency.Domain.ModelsDb
@@ -37,6 +39,7 @@ namespace TravelAgency.Domain.ModelsDb
         [Column("createdAt", TypeName = "timestamp")]
         public DateTime CreatedAt { get; set; }
 
-
+        public ICollection<RequestsDb> requestsDb { get; set; }
+        public ICollection<OrdersDb> ordersDb { get; set; }
     }
 }
