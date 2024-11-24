@@ -10,9 +10,22 @@
     }
 
     // Обработчики для скрытия/открытия формы
-    document.getElementById("click-to-hide")?.addEventListener("click", hiddenOpen_Closeclick);
-    document.querySelector(".overlay")?.addEventListener("click", hiddenOpen_Closeclick);
-    document.getElementById('side-menu-button-click-to-hide').addEventListener('click', hiddenOpen_Closeclick);
+    document.getElementById("click-to-hide").addEventListener("click", function () {
+        hiddenOpen_Closeclick(".container-login-registration");
+    });
+
+    document.getElementById('side-menu-button-click-to-hide').addEventListener('click', function () {
+        hiddenOpen_Closeclick(".container-login-registration");
+    });
+
+    document.querySelector(".overlay").addEventListener("click", function () {
+        hiddenOpen_Closeclick(".container-login-registration");
+    });
+
+    document.querySelector(".button_confirm_close").addEventListener("click", function () {
+        hiddenOpen_Closeclick(".container-login-registration");
+    });
+   
 
     // Переключение между формами входа и регистрации
     const signInBtn = document.querySelector('.signin-btn');
@@ -110,7 +123,12 @@
             sendRequest('POST', requestURL, body)
                 .then(data => {
                     cleaningAndClosingForm(form, errorContainerSignup);
+
                     console.log('Успешный ответ', data);
+
+                    hiddenOpen_Closeclick(".container-login-registration");
+
+                    confirmEmail(data);
                 })
                 .catch(err => {
                     displayErrors(err, errorContainerSignup);
@@ -157,8 +175,35 @@
                 form[key].value = ''; // Очистка значений
             }
         }
-        hiddenOpen_Closeclick(); // Закрытие формы
+        hiddenOpen_Closeclick(".container-login-registration"); // Закрытие формы
     }
 
+
+    function confirmEmail(body) {
+
+        document.querySelector(".send_confirm").addEventListener('click', function () {
+
+            body.confirmEmail = document.getElementById('code_confirm').value;
+            const requestURL = '/Home/ConfirmEmail';
+
+            sendRequest('POST', requestURL, body)
+                .then(data => {
+                    console.log("Код подтверждения:", data);
+
+                    hiddenOpen_Closeclick(".confirm-email-container");
+
+                    location.reload();
+                })
+                .catch(err => {
+                    displayErrors(err, errorContainer);
+
+                    console.log(err);
+                });
+
+        })
+
+
+
+    }
   
 });

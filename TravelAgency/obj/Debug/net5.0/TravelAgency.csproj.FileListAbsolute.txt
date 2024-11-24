@@ -704,3 +704,4 @@ D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency\obj\Debug\net5.0\refint\Tr
 D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency\obj\Debug\net5.0\TravelAgency.pdb
 D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency\obj\Debug\net5.0\TravelAgency.genruntimeconfig.cache
 D:\Gradinar_WORK\ClearLondonNew_NEW-main\TravelAgency\obj\Debug\net5.0\ref\TravelAgency.dll
+E:\Gradinar_Project\ClearLondonNew_NEW-main\TravelAgency\obj\Debug\net5.0\TravelAgency.MvcApplicationPartsAssemblyInfo.cs

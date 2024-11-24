@@ -89,16 +89,14 @@ namespace TravelAgency.Controllers
                 {
                     var user = _mapper.Map<User>(model);
 
-                    var responce = await _accountService.Register(user);
+                    var confirm = _mapper.Map<ConfirmEmailViewModel>(model);
 
-                    if (responce.StatusCode == Domain.Response.StatusCode.OK)
-                    {
-                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
-                            new ClaimsPrincipal(responce.Data));
+                    var code = await _accountService.Register(user);
 
-                        return Ok(model);
-                    }
-                    ModelState.AddModelError("", responce.Description);
+                    confirm.GeneratedCode = code.Data;
+
+                        return Ok(confirm);
+     
 
                 }
                     var errors = ModelState.Values.SelectMany(v => v.Errors)

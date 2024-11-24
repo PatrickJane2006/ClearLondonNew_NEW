@@ -1,74 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\",
+  "WorkspaceRootPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\validators\\servicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\servicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|e:\\gradinar_project\\clearlondonnew_new-main\\travelagency.domain\\helpers\\authenticateuserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\helpers\\authenticateuserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\validators\\countryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\countryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\validators\\pictureservicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\pictureservicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\validators\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7ADDF87-822A-4B75-A7C8-BDC2ED8BE234}|TravelAgency.DAL\\TravelAgency.DAL.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.dal\\migrations\\20241122090739_etiiiil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7ADDF87-822A-4B75-A7C8-BDC2ED8BE234}|TravelAgency.DAL\\TravelAgency.DAL.csproj|solutionrelative:travelagency.dal\\migrations\\20241122090739_etiiiil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\modelsdb\\servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\modelsdb\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\modelsdb\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\usersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\modelsdb\\requestsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\requestsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76565C04-FE37-4BE0-9136-114D32CAFAFE}|TravelAgency.Service\\TravelAgency.Service.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.service\\implementation\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76565C04-FE37-4BE0-9136-114D32CAFAFE}|TravelAgency.Service\\TravelAgency.Service.csproj|solutionrelative:travelagency.service\\implementation\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\modelsdb\\picture_servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\picture_servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76565C04-FE37-4BE0-9136-114D32CAFAFE}|TravelAgency.Service\\TravelAgency.Service.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.service\\implementation\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76565C04-FE37-4BE0-9136-114D32CAFAFE}|TravelAgency.Service\\TravelAgency.Service.csproj|solutionrelative:travelagency.service\\implementation\\appmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency.domain\\modelsdb\\countriesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\countriesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|e:\\gradinar_project\\clearlondonnew_new-main\\travelagency\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{76565C04-FE37-4BE0-9136-114D32CAFAFE}|TravelAgency.Service\\TravelAgency.Service.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.service\\implementation\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76565C04-FE37-4BE0-9136-114D32CAFAFE}|TravelAgency.Service\\TravelAgency.Service.csproj|solutionrelative:travelagency.service\\implementation\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|d:\\gradinar_work\\clearlondonnew_new-main\\travelagency\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\viewmodels\\loginandregistration\\confirmemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\viewmodels\\loginandregistration\\confirmemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency\\wwwroot\\css\\login_and_registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\wwwroot\\css\\login_and_registration.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\views\\shared\\_confirmemailpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADMIN\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Text.Encoding.CodePages.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\validators\\servicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\servicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\validators\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\requestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\validators\\countryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\countryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\validators\\pictureservicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\pictureservicevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\validators\\ordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7ADDF87-822A-4B75-A7C8-BDC2ED8BE234}|TravelAgency.DAL\\TravelAgency.DAL.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.dal\\migrations\\20241122090739_etiiiil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7ADDF87-822A-4B75-A7C8-BDC2ED8BE234}|TravelAgency.DAL\\TravelAgency.DAL.csproj|solutionrelative:travelagency.dal\\migrations\\20241122090739_etiiiil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\modelsdb\\servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\ordersdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\modelsdb\\requestsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\requestsdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\modelsdb\\picture_servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\picture_servicesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency.domain\\modelsdb\\countriesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0CB374-EBC8-4C47-B6B4-494FB407DA0A}|TravelAgency.Domain\\TravelAgency.Domain.csproj|solutionrelative:travelagency.domain\\modelsdb\\countriesdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\travelagency\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{76315FAB-ADD8-485B-BF6D-E04F963B3B74}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\views\\shared\\_loginregistrationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,67 +109,182 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241122090739_ETIIIIL.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
-              "RelativeDocumentMoniker": "TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
-              "RelativeToolTip": "TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthenticateUserHelper.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\Helpers\\AuthenticateUserHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T09:07:39.557Z",
+              "WhenOpened": "2024-11-24T11:56:24.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrdersDb.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
-              "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
-              "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCcAAAAGAAAA",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\Implementation\\AccountService.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Service\\Implementation\\AccountService.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\Implementation\\AccountService.cs",
+              "RelativeToolTip": "TravelAgency.Service\\Implementation\\AccountService.cs",
+              "ViewState": "AQIAALcAAAAAAAAAAAAEwMgAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:56:17.606Z",
+              "WhenOpened": "2024-11-23T16:50:45.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RequestsDb.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
-              "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
-              "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:55:38.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "UsersDb.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\UsersDb.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\UsersDb.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\UsersDb.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\UsersDb.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\UsersDb.cs",
               "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\UsersDb.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wCoAAAA7AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwCoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T08:52:46.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login_and_registration_script.js",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeDocumentMoniker": "TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeToolTip": "TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAiwMgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-22T08:10:36.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TravelAgency\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TravelAgency\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T10:13:29.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\Implementation\\IAccountService.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Service\\Implementation\\IAccountService.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\Implementation\\IAccountService.cs",
+              "RelativeToolTip": "TravelAgency.Service\\Implementation\\IAccountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T17:48:42.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConfirmEmailViewModel.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\ViewModels\\LoginAndRegistration\\ConfirmEmailViewModel.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAwwBcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:27:58.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AppMappingProfile.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\Implementation\\AppMappingProfile.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Service\\Implementation\\AppMappingProfile.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Service\\Implementation\\AppMappingProfile.cs",
+              "RelativeToolTip": "TravelAgency.Service\\Implementation\\AppMappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T18:31:35.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "login_and_registration.css",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\wwwroot\\css\\login_and_registration.css",
+              "RelativeDocumentMoniker": "TravelAgency\\wwwroot\\css\\login_and_registration.css",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\wwwroot\\css\\login_and_registration.css",
+              "RelativeToolTip": "TravelAgency\\wwwroot\\css\\login_and_registration.css",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-23T18:05:40.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ConfirmEmailPartial.cshtml",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "RelativeDocumentMoniker": "TravelAgency\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "RelativeToolTip": "TravelAgency\\Views\\Shared\\_ConfirmEmailPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T17:57:38.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TravelAgency\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAIwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:49:01.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "System.Text.Encoding.CodePages.targets",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Text.Encoding.CodePages.targets",
+              "ToolTip": "C:\\Users\\ADMIN\\.nuget\\packages\\system.text.encoding.codepages\\8.0.0\\buildTransitive\\netcoreapp2.0\\System.Text.Encoding.CodePages.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-23T18:46:59.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceValidator.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\ServiceValidator.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\Validators\\ServiceValidator.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\ServiceValidator.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\Validators\\ServiceValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:44:07.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RequestValidator.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\RequestValidator.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\RequestValidator.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\Validators\\RequestValidator.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\RequestValidator.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\RequestValidator.cs",
               "RelativeToolTip": "TravelAgency.Domain\\Validators\\RequestValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,11 +293,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "ServicesDb.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\ServicesDb.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\ServicesDb.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\ServicesDb.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\ServicesDb.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\ServicesDb.cs",
               "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\ServicesDb.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAA4wD4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -160,11 +306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "PictureServiceValidator.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\PictureServiceValidator.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\PictureServiceValidator.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\Validators\\PictureServiceValidator.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\PictureServiceValidator.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\PictureServiceValidator.cs",
               "RelativeToolTip": "TravelAgency.Domain\\Validators\\PictureServiceValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -173,11 +319,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "CountryValidator.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\CountryValidator.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\CountryValidator.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\Validators\\CountryValidator.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\CountryValidator.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\CountryValidator.cs",
               "RelativeToolTip": "TravelAgency.Domain\\Validators\\CountryValidator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -186,11 +332,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "OrderValidator.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\OrderValidator.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\OrderValidator.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\Validators\\OrderValidator.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\OrderValidator.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\OrderValidator.cs",
               "RelativeToolTip": "TravelAgency.Domain\\Validators\\OrderValidator.cs",
               "ViewState": "AQIAAAMAAADQtm3btm0rwAoAAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,24 +345,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServiceValidator.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\ServiceValidator.cs",
-              "RelativeDocumentMoniker": "TravelAgency.Domain\\Validators\\ServiceValidator.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Validators\\ServiceValidator.cs",
-              "RelativeToolTip": "TravelAgency.Domain\\Validators\\ServiceValidator.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAcwBkAAAAAAAAA",
+              "DocumentIndex": 21,
+              "Title": "RequestsDb.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\RequestsDb.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T07:44:07.811Z",
+              "WhenOpened": "2024-11-22T08:55:38.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
+              "Title": "OrdersDb.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
+              "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
+              "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\OrdersDb.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T08:56:17.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241122090739_ETIIIIL.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
+              "RelativeDocumentMoniker": "TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
+              "RelativeToolTip": "TravelAgency.DAL\\Migrations\\20241122090739_ETIIIIL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T09:07:39.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Picture_servicesDb.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\Picture_servicesDb.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\Picture_servicesDb.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\Picture_servicesDb.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\Picture_servicesDb.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\Picture_servicesDb.cs",
               "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\Picture_servicesDb.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,11 +397,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "CountriesDb.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\CountriesDb.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\CountriesDb.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\ModelsDb\\CountriesDb.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\CountriesDb.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\ModelsDb\\CountriesDb.cs",
               "RelativeToolTip": "TravelAgency.Domain\\ModelsDb\\CountriesDb.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,24 +410,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TravelAgency\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAgwDoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T08:49:01.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "Service.cs",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Models\\Service.cs",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Models\\Service.cs",
               "RelativeDocumentMoniker": "TravelAgency.Domain\\Models\\Service.cs",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Models\\Service.cs",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\Models\\Service.cs",
               "RelativeToolTip": "TravelAgency.Domain\\Models\\Service.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -264,41 +423,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "_LoginRegistrationPartial.cshtml",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "DocumentMoniker": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
               "RelativeDocumentMoniker": "TravelAgency\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
+              "ToolTip": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
               "RelativeToolTip": "TravelAgency\\Views\\Shared\\_LoginRegistrationPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-22T08:08:57.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "login_and_registration_script.js",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
-              "RelativeDocumentMoniker": "TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
-              "RelativeToolTip": "TravelAgency\\wwwroot\\js\\login_and_registration_script.js",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAkwIgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-22T08:10:36.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TravelAgency\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Gradinar_WORK\\ClearLondonNew_NEW-main\\TravelAgency\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TravelAgency\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T10:13:29.514Z",
               "EditorCaption": ""
             }
           ]
