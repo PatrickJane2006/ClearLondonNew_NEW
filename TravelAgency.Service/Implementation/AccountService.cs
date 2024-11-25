@@ -139,8 +139,8 @@ namespace TravelAgency.Service.Implementation
 
         public async Task SendEmail(string email, string confirmationCode)
         {
-            string path = "E:\\Проверка_Почты\\passwordPractice.txt"; var emailMessage = new MimeMessage();
-            emailMessage.From.Add(new MailboxAddress("Адинистрачия caйтa", "ClearLondonNew@gmail.com")); 
+            string path = "D:\\Gradinar\\password\\passwordPractice.txt"; var emailMessage = new MimeMessage();
+            emailMessage.From.Add(new MailboxAddress("Адинистрация caйтa", "ClearLondonNew@gmail.com")); 
             emailMessage.To.Add(new MailboxAddress("", email)); 
             emailMessage.Subject = "Добро пожаловать!";
             emailMessage.Body = new TextPart(MimeKit.Text.TextFormat.Html)
@@ -157,7 +157,7 @@ namespace TravelAgency.Service.Implementation
                 "<div class='container'>" +
                 "<div class='header'><h1>Дoбpо пожаловать на сайт Клининговой компании ClearLondonNew!</h1></div>" +
                 "<div class='message'>" +
-                "< р > Пожалуйста, введите данный код на сайте, чтобы подтвердить ваш email и завершить регистрацию: </ p > " + " < div class='conteiner-code'><p class='code'>" + confirmationCode + "</p></div>" +
+                "<р> Пожалуйста, введите данный код на сайте, чтобы подтвердить ваш email и завершить регистрацию: </p> " + " <div class='conteiner-code'><p class='code'>" + confirmationCode + "</p></div>" +
                 "</div>" + "</div>" + "</body>" + "</html>"
 
             };
@@ -198,7 +198,7 @@ namespace TravelAgency.Service.Implementation
 
                 await _UserStorage.Add(userdb);
 
-                var result = AuthenticateUserHelper.Authenticate(userdb);
+               var result = AuthenticateUserHelper.Authenticate(_mapper.Map<User>(userdb));
 
                 return new BaseResponce<ClaimsIdentity>
                 {

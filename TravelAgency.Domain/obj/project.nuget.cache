@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OR+h6yeZy+O66EiioaH+mQofls1bQjLGJjI1Zq4TSaM+RZnkxlQz3E8ZW8oMFw9WqkFqP19sJ8WULVVzG589Cg==",
+  "dgSpecHash": "rv1iqtJH3mEi/PnAbibMVdqTcKypCDx+Y9Cu2x9JlIGMUSgBHcLuA+Mib1CArzP1KHUUmVibYySUyS4wtWHk2Q==",
   "success": true,
-  "projectFilePath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+  "projectFilePath": "D:\\Gradinar\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ADMIN\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\kab-35-17\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

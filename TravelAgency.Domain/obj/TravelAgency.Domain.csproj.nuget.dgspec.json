@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {}
+    "D:\\Gradinar\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
+    "D:\\Gradinar\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "projectUniqueName": "D:\\Gradinar\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
         "projectName": "TravelAgency.Domain",
-        "projectPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\Gradinar_Project\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\obj\\",
+        "projectPath": "D:\\Gradinar\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\TravelAgency.Domain.csproj",
+        "packagesPath": "C:\\Users\\kab-35-17\\.nuget\\packages\\",
+        "outputPath": "D:\\Gradinar\\ClearLondonNew_NEW-main\\TravelAgency.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kab-35-17\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,8 +55,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -66,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

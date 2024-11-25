@@ -83,7 +83,7 @@ namespace TravelAgency.Controllers
             }
 
             [HttpPost]
-            public async Task<IActionResult> Register([FromBody] LoginViewModel model)
+            public async Task<IActionResult> Register([FromBody] RegisterViewModel model)
             {
                 if (ModelState.IsValid)
                 {
@@ -104,6 +104,29 @@ namespace TravelAgency.Controllers
                     .ToList();
 
                     return BadRequest(errors);
+            }
+
+            [HttpPost]
+
+            public async Task<IActionResult> ConfirmEmail([FromBody] ConfirmEmailViewModel confirmEmailModel)
+            {
+                var user = _mapper.Map<User>(confirmEmailModel);
+                var responce = await _accountService.ConfirmEmail(user, confirmEmailModel.GeneratedCode, confirmEmailModel.CodeConfirm);
+                
+                if (responce.StatusCode == Domain.Response.StatusCode.OK)
+                {
+                await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+                    new ClaimsPrincipal(responce.Data));
+
+                return Ok(confirmEmailModel);               
+                }
+                ModelState.AddModelError("", responce.Description);
+
+                var errors = ModelState.Values.SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+                return BadRequest(errors);
             }
 
             [AutoValidateAntiforgeryToken]

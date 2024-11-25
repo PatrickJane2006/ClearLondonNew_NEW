@@ -64,6 +64,7 @@
             </div>
 
                 @await Html.PartialAsync("_LoginRegistrationPartial")
+                @await Html.PartialAsync("_ConfirmEmailPartial")
 
             <div class="container">
                      @RenderBody()
@@ -93,6 +94,7 @@
                 </div>
             </div>
         </footer>
+
 
             <script src="~/js/shared_script.js" asp-append-version="true"></script>
             <script src="~/js/home_script.js" asp-append-version="true"></script>

@@ -43,8 +43,6 @@ namespace TravelAgency
             services.InitializeReposiitories();
             services.InitializeServices();
 
-
-            
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -30,6 +30,6 @@ namespace TravelAgency.Domain.ViewModels.LoginAndRegistration
         [Required(ErrorMessage = "Подтвердите пароль")]
         [Compare("Password", ErrorMessage = "Пароли не совподают")]
 
-        public string PasswordConfrim { get; set; }
+        public string PasswordConfirm { get; set; }
     }
 }

@@ -1,11 +1,13 @@
 ﻿document.addEventListener('DOMContentLoaded', function () {
     // Функция для открытия/закрытия формы
-    function hiddenOpen_Closeclick() {
-        let x = document.querySelector(".container-login-registration");
-        if (x.style.display == "none") {
-            x.style.display = "grid";
+    function hiddenOpen_Closeclick(container) {
+        let x = document.querySelector(container);
+        if (x.classList.contains('hidden')) {
+            x.classList.remove('hidden');
+            x.classList.add('visible');
         } else {
-            x.style.display = "none";
+            x.classList.remove('visible');
+            x.classList.add('hidden');
         }
     }
 
@@ -22,10 +24,13 @@
         hiddenOpen_Closeclick(".container-login-registration");
     });
 
-    document.querySelector(".button_confirm_close").addEventListener("click", function () {
-        hiddenOpen_Closeclick(".container-login-registration");
-    });
-   
+    const button_confirm = document.querySelector(".button_confirm_close");
+
+    if (button_confirm) {
+        button_confirm.addEventListener("click", function () {
+            hiddenOpen_Closeclick(".container-login-registration");
+        });
+    }
 
     // Переключение между формами входа и регистрации
     const signInBtn = document.querySelector('.signin-btn');
@@ -42,44 +47,6 @@
         signInBtn.addEventListener('click', function () {
             formBox.classList.remove('active');
             block.classList.remove('active');
-        });
-    }
-
-    // Обработка формы входа
-    const errorContainerSignin = document.getElementById('error-messages-signin');
-    const formBtnSignin = document.querySelector('.form_btn_signin');
-
-    if (formBtnSignin) {
-        formBtnSignin.addEventListener('click', function () {
-            const requestURL = '/Home/Login';
-            const form = {
-                email: document.querySelector("#signin_email input"),
-                password: document.querySelector("#signin_password input")
-            };
-
-            // Валидация данных
-            const email = form.email.value;
-            const password = form.password.value;
-            if (!email || !password) {
-                displayErrors(['Пожалуйста, заполните все поля.'], errorContainerSignin);
-                return;
-            }
-
-            const body = {
-                email: email,
-                password: password
-            };
-
-            sendRequest('POST', requestURL, body)
-                .then(data => {
-                    cleaningAndClosingForm(form, errorContainerSignin);
-                    console.log('Успешный ответ', data);
-                    location.reload(); // Перезагружаем страницу
-                })
-                .catch(err => {
-                    displayErrors(err, errorContainerSignin);
-                    console.log(err);
-                });
         });
     }
 
@@ -117,17 +84,16 @@
                 login: login,
                 email: email,
                 password: password,
-                passwordConfirm: passwordConfirm
+                PasswordConfirm: passwordConfirm
             };
 
             sendRequest('POST', requestURL, body)
                 .then(data => {
                     cleaningAndClosingForm(form, errorContainerSignup);
-
                     console.log('Успешный ответ', data);
 
-                    hiddenOpen_Closeclick(".container-login-registration");
-
+                    // Закрытие формы регистрации и открытие формы подтверждения
+                    hiddenOpen_Closeclick(".comfirm-email-container");
                     confirmEmail(data);
                 })
                 .catch(err => {
@@ -178,32 +144,21 @@
         hiddenOpen_Closeclick(".container-login-registration"); // Закрытие формы
     }
 
-
     function confirmEmail(body) {
-
         document.querySelector(".send_confirm").addEventListener('click', function () {
-
             body.confirmEmail = document.getElementById('code_confirm').value;
             const requestURL = '/Home/ConfirmEmail';
 
             sendRequest('POST', requestURL, body)
                 .then(data => {
                     console.log("Код подтверждения:", data);
-
-                    hiddenOpen_Closeclick(".confirm-email-container");
-
+                    toggleVisibility(".comfirm-email-container");
                     location.reload();
                 })
                 .catch(err => {
                     displayErrors(err, errorContainer);
-
                     console.log(err);
                 });
-
-        })
-
-
-
+        });
     }
-  
 });
